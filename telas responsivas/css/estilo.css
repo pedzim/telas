@@ -1,0 +1,168 @@
+.comeco{
+    width: 1200x;
+    height: 60px;
+    padding: 0px 112px 10px 112px;
+    justify: space-between;
+    opacity: 0px;
+    background: #065E7C;
+}
+
+
+.www{
+    width: 1008px;
+    height: 20px;
+    padding: 5px 12px 5px 12px;
+    gap: 12px;
+    border-radius: 12px;
+    opacity: 0px;
+    background: #FFFFFF33;
+    text-align: center;
+    padding-top: 15px;
+    justify-content: center;
+}
+
+.img1{
+    width: 40px;
+    height: 40px;
+    padding: 8px 0px 0px 0px;
+    gap: 10px;
+    border-radius: 9999px ;
+    opacity: 0px;
+}
+
+.imgprincipal{
+   width: 803px;
+   height: 280px;
+   top: 116px;
+   left: 109px;
+   border-radius: 5px 0px 0px 0px;
+   opacity: 0px;
+
+}
+
+.img2{
+    width: 151px;
+    height: 84px;
+    border-radius: 5px 0px 0px 0px;
+}
+
+.colun {
+   flex-direction: column;
+   padding: 0%;
+   padding-left: 23px;
+
+}
+
+.img2, h3, .pes{
+    display: inline-block;
+}
+
+.wse{
+    font-size: 25px;
+}
+
+.final{
+    font-family: Mulish;
+font-size: 16px;
+font-weight: 600;
+line-height: 20.08px;
+text-align: center;
+width: 100%;
+height: 45px;
+gap: 0px;
+opacity: 0px;
+background: #065E7C;
+}
+
+.colun, .principal{
+    display: inline-block;
+}
+
+/* 2 - Sintaxe */
+@media  screen and (max-width: 375px) {
+    /*MAX WIDTH - TELAS MENORES QUE ALGUMAS RESOLUCAO */
+
+    .pagina-inteira{
+        width: 430px;
+        height: 1945px;
+        top: 372px;
+        left: 1681.5px;
+        gap: 0px;
+        opacity: 0px;        
+    }
+    
+    .comeco{
+    width: Fixed (430px)px;
+    height: Fixed (72px)px;
+    padding: 12px 28px 12px 28px;
+    gap: 25.5px;
+    opacity: 0px;
+    }
+
+    .img1{
+    width: 42px;
+    height: 42px;
+    gap: 0px;
+    border-radius: 999px;
+    opacity: 0px;
+    }
+
+    .www{
+    width: 240px;
+    height: 16px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    }
+
+    .imgprincipal{
+        width: 430px;
+        height: 219px;
+        top: 72px;
+        left: -4px;
+        gap: 0px;
+        border-radius: 5px 0px 0px 0px;
+        opacity: 0px;
+        
+    }
+
+    .p{
+        width: 382px;
+        height: 754px;
+        left: 22px;
+        gap: 0px;
+        opacity: 0px;
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 25.6px;
+        text-align: left;
+        margin-top: 0% ;
+    }
+
+    .colun{
+        width: 384px;
+        height: 615px;
+        top: 1227px;
+        left: 22px;
+        gap: 32px;
+        opacity: 0px;
+        margin-top: 1px;
+    }
+
+    .img2{
+        width: 145px;
+        height: 84px;
+        border-radius: 5px 0px 0px 0px;
+    }
+
+    .ser{
+    height: 30px;
+    gap: 0px;
+    opacity: 0px;
+
+    }
+    
+}
